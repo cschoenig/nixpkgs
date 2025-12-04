@@ -16,7 +16,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://www.plasticscm.com/plasticrepo/stable/debian/amd64/plasticscm-client-core_${finalAttrs.version}_amd64.deb";
-    hash = "sha256-NuMY75JnnWVRKBSh/1XYipqc0m+O0vt7lJMVkQyTaNA=";
+    hash = "sha256-/tfZLJ3a/6Jdk3opRKs+3/l09bFViN7/YuQ0hxVy4J8=";
   };
 
   nativeBuildInputs = [
